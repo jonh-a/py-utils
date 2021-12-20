@@ -7,6 +7,9 @@ from datetime import datetime
 
 desc = "list directory contents"
 
+# TODO -R
+# TODO -h
+
 parser = argparse.ArgumentParser(description=desc)
 parser.add_argument('FILE', nargs='*', help="file",
                     default=[os.getcwd()])
